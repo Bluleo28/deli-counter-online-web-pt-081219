@@ -12,7 +12,7 @@ def line(deli_queue)
   end 
 end
 
-
+line(katz_deli)
 
 
 def take_a_number(current_line, new_person)
