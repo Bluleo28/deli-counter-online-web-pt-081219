@@ -6,7 +6,7 @@ def line(deli_queue)
     # current_line = "The line is currently:"
     message = "The line is currently:"
     deli_queue.each_with_index do |name,index|
-      message += "#{index+1}. #{name}"
+      message += " #{index+1}. #{name} "
     end
     puts "#{message}"
     #(current_line)
