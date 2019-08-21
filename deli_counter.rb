@@ -1,12 +1,12 @@
-def line(queue)
+def line(deli_queue)
   if deli_queue.length == 0 
-    puts "The is nobody in line."
+    puts "There is nobody in line."
   else
     current_line = "The line is currently:"
-    deli_queue.each_with_index(1) do |name,index|
-      current_line << "#{index}. #{name}"
+    deli_queue.each_with_index do |name,index|
+      current_line << "#{index+1}. #{name}"
     end
-    puts current_line
+    puts (current_line)
   end 
 end
 
@@ -15,7 +15,6 @@ end
 
 def take_a_number(current_line, new_person)
    current_line.push(new_person)
-  # place = array.index(new_person) 
     puts "Welcome, #{new_person}. You are number #{current_line.index(new_person)+1} in line."
     return new_person
   end
