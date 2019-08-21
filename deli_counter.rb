@@ -1,6 +1,6 @@
 def line(deli_queue)
   if deli_queue.length == 0 
-    puts "There is nobody in line."
+    puts "The line is currently empty."
   else
     # current_line = "The line is currently:"
     message = "The line is currently:"
