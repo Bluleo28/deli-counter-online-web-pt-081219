@@ -15,8 +15,9 @@ end
 
 def take_a_number(current_line, new_person)
    current_line << new_person
+   place = array.index(new_person) 
     puts "Welcome, #{new_person}.You are number #{current_line.length(new_person)+1} in line."
-    return current_line,new_person
+    return new_person, place
   end
   
   
