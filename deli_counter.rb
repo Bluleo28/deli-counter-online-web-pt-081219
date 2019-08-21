@@ -14,7 +14,7 @@ end
 
 
 def take_a_number(current_line, new_person)
-  if current_line << new_person
+   current_line << new_person
     puts "Welcome, #{new_person}.You are number #{current_line.length} in line."
   end
   
