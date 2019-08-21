@@ -1,6 +1,6 @@
 def line(queue)
   if deli_queue.length == 0 
-    puts "The line is currently empty."
+    puts "The is nobody in line."
   else
     current_line = "The line is currently:"
     deli_queue.each_with_index(1) do |name,index|
