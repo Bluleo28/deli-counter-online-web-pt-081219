@@ -5,7 +5,7 @@ def line(deli_queue)
   else
     # current_line = "The line is currently:"
     message = "The line is currently:"
-    deli_queue.each_with_index do |name,index|
+    deli_queue.each_with_index do |name, index|
       message += " #{index +1}. #{name} "
     end
     puts "#{message}"
