@@ -7,7 +7,8 @@ def line(deli_queue)
     deli_queue.each_with_index do |name,index|
       message += "#{index+1}. #{name}"
     end
-    puts (current_line)
+    puts 
+    #(current_line)
   end 
 end
 
